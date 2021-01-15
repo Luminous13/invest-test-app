@@ -1,37 +1,3 @@
-// import React, { useContext } from 'react';
-// import { observer } from 'mobx-react-lite';
-// import { StyleSheet, View, Text, Button } from 'react-native';
-
-// import { UserStoreContext } from '../../stores/UserStore';
-
-// const Landing = () => {
-//   const userStore = useContext(UserStoreContext);
-//   const { welcomeMessage, isLoading, updateMessage, loginUser } = userStore;
-
-//   return (
-//     <View style={styles.mainContainer}>
-//       <Text>{welcomeMessage}</Text>
-//       <Button
-//         title="CLICK ME"
-//         onPress={() => loginUser('Luminous13', '0kx2flAPZX05')}
-//         disabled={isLoading}
-//       />
-//     </View>
-//   );
-// };
-
-// const styles = StyleSheet.create({
-//   mainContainer: {
-//     borderColor: 'red',
-//     borderWidth: 1,
-//     flex: 1,
-//     justifyContent: 'center',
-//     alignItems: 'center',
-//   },
-// });
-
-// export default observer(Landing);
-
 import React from 'react';
 import { View, Text, Image, TouchableOpacity, Dimensions } from 'react-native';
 import styled from 'styled-components';
